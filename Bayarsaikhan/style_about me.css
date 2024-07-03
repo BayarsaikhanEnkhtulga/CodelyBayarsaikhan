@@ -1,0 +1,23 @@
+.menu li{
+    list-style-type: none;
+    display: inline;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    text-align: center;
+    font-size: large;
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+}
+.menu {
+    margin: 0;
+}
