@@ -127,3 +127,61 @@ h2{
     width: 100%;
     height: auto;
 }
+.membershipsection {
+    width: 100%;
+    text-align: left;
+}
+.membershipsection h1 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+  
+.membership {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+.membershipitem {
+    width: 27%;
+    position: relative;
+    margin-right: 20px;
+}
+  
+.membershipitem img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+  
+.membershiptext {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    margin: 10px;
+}
+  
+#button1 {
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 13px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+  
+#button1 p {
+    color: black;
+    margin: 0;
+}
+.membershiptext h2{
+    margin-top: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 75px;
+}
