@@ -1,44 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-p{
-    color: white;
-    align-items: center;
+body {
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.header{
-    background-color: aqua;
-    height: 56px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  height: 56px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
-.guidebar{
-    background-color: blueviolet;
-    width: 169px;
+.logo {
+  width: 8.88%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
 }
-.logo{
-    background-color: green;
-    text-align: center;
-    margin: 0;
-    width: 169px;
-    height: 40px;
-    margin-left: 30px;
+.guidebutton {
+  padding: 8px;
 }
-.search{
-    background-color: green;
-    text-align: center;
-    margin: 0;
-    width: 40%;
-    height: 40px;
+.guidebutton img {
+  width: 24px;
+  height: 24px;
 }
-.signin{
-    background-color: green;
-    text-align: center;
-    margin: 0;
-    min-width: 225px;
-    height: 40px;
-    margin-right: 16px;
+.ytlogo {
+  padding: 18px;
+}
+.ytlogo img {
+  width: 90px;
+  height: 20px;
+}
+.search {
+  width: 29.8476%;
+}
+.signin {
+  width: 11.82%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.menubutton {
+  padding: 8px;
+}
+.menubutton img {
+  width: 24px;
+  height: 24px;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96.61px;
+  height: 34px;
+  border-radius: 20px;
+  border: 1px lightgrey solid;
+}
+.yt-spec-button-shape-next__icon {
+  margin-left: 6px;
+  margin-right: 6px;
+  color: #065fd4;
+  width: 24px;
+  height: 24px;
+  line-height: 0;
+  line-height: 0;
+  fill: currentColor;
+}
+.signintext {
+  color: #065fd4;
+  text-transform: none;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  white-space: nowrap;
+  margin-right: 10px;
 }
