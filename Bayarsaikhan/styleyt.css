@@ -5,10 +5,6 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-body {
-  margin-right: 20px;
-  margin-left: 20px;
-}
 .header {
   height: 56px;
   width: 100%;
@@ -62,6 +58,11 @@ body {
   height: 34px;
   border-radius: 20px;
   border: 1px lightgrey solid;
+  margin-right: 20px;
+}
+.yt-spec-icon-shape svg{
+  width: 24px;
+  height: 24px;
 }
 .yt-spec-button-shape-next__icon {
   margin-left: 6px;
@@ -81,4 +82,113 @@ body {
   line-height: 36px;
   white-space: nowrap;
   margin-right: 10px;
+}
+.maincontent{
+  position: fixed;
+  top: 56px;
+  left: 120px;
+}
+.bodycontainer{
+  display: flex;
+}
+.wrapper{
+  top: 56px;
+  background-color: white;
+  z-index: 2000;
+  justify-content: center;
+}
+.content{
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row;  
+  left: 0;
+}
+.leftarrow{
+  display: none;
+}
+.leftarrowbutton{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon{
+  color: #030303;
+}
+.icon svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  vertical-align: middle;
+  fill: currentColor;
+  stroke: none;
+  width: 24px;
+  height: 24px;
+}
+.scrollcontainer{
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  max-width: 1720px;
+}
+.selector{
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(.05,0,0,1);
+  will-change: transform;
+  display: inline-block;
+  white-space: nowrap;
+  transform: translateX(0px);
+}
+.feedfilter1{
+  background-color: #030303;
+  color: white;
+  size-adjust: 32px;
+  height: 32px;
+  border-radius: 8px;
+  margin: 12px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+.feedtext1{
+  max-width: 20rem;
+}
+.scrollcontainer p{
+  color: black;
+  margin: 0;
+}
+.feedtext1 p{
+  color: white;
+}
+.feedfilter{
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #030303;
+  size-adjust: 32px;
+  height: 32px;
+  border-radius: 8px;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+.rightarrowbutton{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rightarrow{
+  display: flex;
+}
+.guidebar{
+  width: 120px;
+  background-color: #065fd4;
+  margin-left: 0;
 }
