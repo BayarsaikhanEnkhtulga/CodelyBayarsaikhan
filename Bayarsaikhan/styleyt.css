@@ -11,6 +11,9 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .logo {
   width: 8.88%;
@@ -60,7 +63,7 @@
   border: 1px lightgrey solid;
   margin-right: 20px;
 }
-.yt-spec-icon-shape svg{
+.yt-spec-icon-shape svg {
   width: 24px;
   height: 24px;
 }
@@ -83,39 +86,45 @@
   white-space: nowrap;
   margin-right: 10px;
 }
-.maincontent{
+.maincontent {
   position: fixed;
   top: 56px;
-  left: 120px;
+  left: 230px;
 }
-.bodycontainer{
+.bodycontainer {
   display: flex;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 56px;
+  height: 100%;
+  left: 0;
 }
-.wrapper{
+.wrapper {
   top: 56px;
   background-color: white;
   z-index: 2000;
   justify-content: center;
 }
-.content{
+.content {
   padding: 0 24px;
   display: flex;
-  flex-direction: row;  
-  left: 0;
+  flex-direction: row;
+  margin-left: 0;
 }
-.leftarrow{
+.leftarrow {
   display: none;
 }
-.leftarrowbutton{
+.leftarrowbutton {
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.icon{
+.icon {
   color: #030303;
 }
-.icon svg{
+.icon svg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,69 +135,112 @@
   width: 24px;
   height: 24px;
 }
-.scrollcontainer{
-  position: relative;
+.scrollcontainer {
   white-space: nowrap;
   overflow: hidden;
   display: flex;
   flex-direction: row;
   right: 0;
-  max-width: 1720px;
+  max-width: 1620px;
 }
-.selector{
+.selector {
   transition-duration: 0.15s;
-  transition-timing-function: cubic-bezier(.05,0,0,1);
+  transition-timing-function: cubic-bezier(0.05, 0, 0, 1);
   will-change: transform;
   display: inline-block;
   white-space: nowrap;
   transform: translateX(0px);
 }
-.feedfilter1{
+.feedfilter1 {
   background-color: #030303;
   color: white;
   size-adjust: 32px;
   height: 32px;
   border-radius: 8px;
-  margin: 12px;
+  margin: 5px;
   width: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 15px;
 }
-.feedtext1{
+.feedtext1 {
   max-width: 20rem;
 }
-.scrollcontainer p{
+.scrollcontainer p {
   color: black;
   margin: 0;
 }
-.feedtext1 p{
+.feedtext1 p {
   color: white;
 }
-.feedfilter{
+.feedfilter {
   background-color: rgba(0, 0, 0, 0.05);
   color: #030303;
   size-adjust: 32px;
   height: 32px;
   border-radius: 8px;
-  margin: 12px;
+  margin: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 15px;
 }
-.rightarrowbutton{
+.rightarrowbutton {
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.rightarrow{
+.rightarrow {
   display: flex;
 }
-.guidebar{
-  width: 120px;
-  background-color: #065fd4;
+.guidebar {
   margin-left: 0;
+  width: 230px;
+}
+.firstbox {
+  width: 216px;
+  height: 120px;
+  padding: 12px;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+.secondbox {
+  width: 216px;
+  height: 80px;
+  padding: 12px;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+.thirdbox {
+  width: 176px;
+  height: 88px;
+  padding: 16px 32px;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+.fourthbox {
+  width: 216px;
+  height: 352px;
+  padding: 12px;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+.fifthbox {
+  width: 216px;
+  height: 160px;
+  padding: 12px;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+.sixthbox {
+  width: 192px;
+  height: 54px;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+.seventhbox {
+  width: 192px;
+  height: 54px;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
